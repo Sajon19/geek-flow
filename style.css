@@ -29,3 +29,38 @@ cursor: pointer;
     padding: 10px;
  
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px solid gray ;
+    color: aliceblue;
+    background-image: url(./images/background.png),linear-gradient(45deg,#090909,#313131);
+}
+
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+
+   
+    padding: 10px 20px;
+    background-color: crimson;
+    color: azure;
+    /* border: none; */
+    border-radius: 5px;
+}
+.btn:hover{
+    color: black;
+}
