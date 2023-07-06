@@ -40,6 +40,10 @@ cursor: pointer;
     border: 2px solid gray ;
     color: aliceblue;
     background-image: url(./images/background.png),linear-gradient(45deg,#090909,#313131);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 
@@ -63,4 +67,18 @@ cursor: pointer;
 }
 .btn:hover{
     color: black;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.service{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
 }
